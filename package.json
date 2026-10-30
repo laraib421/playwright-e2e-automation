@@ -1,0 +1,17 @@
+{
+  "name": "playwright-e2e-automation",
+  "version": "1.0.0",
+  "description": "End-to-end UI test automation framework with Playwright + TypeScript using the Page Object Model",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chrome": "playwright test --project=chromium",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  },
+  "license": "MIT"
+}
